@@ -5,7 +5,7 @@ run:
   # Enables skipping of directories:
   # - vendor$, third_party$, testdata$, examples$, Godeps$, builtin$
   # Default: true
-  skip-dirs-use-default: false
+  skip-dirs-use-default: true
 
   # If set we pass it to "go list -mod={option}". From "go help modules":
   # If invoked with -mod=readonly, the go command is disallowed from the implicit
